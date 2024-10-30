@@ -30,5 +30,5 @@ struct LandmarkRow: View {
 }
 
 #Preview {
-    LandmarkRow(landmark: ModelData().landmarks[0])
+    let landmarks = ModelData().landmarks
 }
