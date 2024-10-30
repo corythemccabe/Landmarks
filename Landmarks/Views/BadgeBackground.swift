@@ -24,7 +24,6 @@ struct BadgeBackground: View {
                     )
                 )
 
-
                 HexagonParameters.segments.forEach { segment in
                     path.addLine(
                         to: CGPoint(
@@ -32,7 +31,6 @@ struct BadgeBackground: View {
                             y: height * segment.line.y
                         )
                     )
-
 
                     path.addQuadCurve(
                         to: CGPoint(
@@ -48,7 +46,7 @@ struct BadgeBackground: View {
             }
             .fill(.linearGradient(
                 Gradient(colors: [Self.gradientStart, Self.gradientEnd]),
-                startPoint: UnitPoint(x: 0.5, y: 0),
+                startPoint: UnitPoint(x: 0.5, y: 0.0),
                 endPoint: UnitPoint(x: 0.5, y: 0.6)
             ))
         }
