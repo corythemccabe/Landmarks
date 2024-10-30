@@ -23,6 +23,7 @@
 		4E189CCF2CD1F0F200F1AC53 /* Landmarks.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Landmarks.xcodeproj; sourceTree = "<group>"; };
 		4E92363A2CD1A62400F2F043 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E92364C2CD1A62400F2F043 /* Landmarks.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Landmarks.xcodeproj; sourceTree = "<group>"; };
+		4E9E4DE12CD2D8AE0084589D /* Landmarks.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Landmarks.xcodeproj; sourceTree = "<group>"; };
 		4EF29D5C2CD19FFA00C0AA21 /* Landmarks.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Landmarks.xcodeproj; sourceTree = "<group>"; };
 		4EF30FE32CD1F80E003CFABF /* Landmarks.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Landmarks.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,6 +53,11 @@
 			sourceTree = "<group>";
 		};
 		4E92364D2CD1A62400F2F043 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E9E4DE32CD2D8AE0084589D /* Products */ = {
 			isa = PBXGroup;
 			name = Products;
 			sourceTree = "<group>";
@@ -139,6 +145,10 @@
 				{
 					ProductGroup = 4E189CD12CD1F0F200F1AC53 /* Products */;
 					ProjectRef = 4E189CCF2CD1F0F200F1AC53 /* Landmarks.xcodeproj */;
+				},
+				{
+					ProductGroup = 4E9E4DE32CD2D8AE0084589D /* Products */;
+					ProjectRef = 4E9E4DE12CD2D8AE0084589D /* Landmarks.xcodeproj */;
 				},
 				{
 					ProductGroup = 4EF30FE52CD1F80E003CFABF /* Products */;
